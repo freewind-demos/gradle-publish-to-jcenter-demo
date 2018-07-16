@@ -2,3 +2,5 @@
 /build/
 /gradle-test.*
 .gradle/
+local.properties
+build/

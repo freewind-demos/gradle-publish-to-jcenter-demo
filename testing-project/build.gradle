@@ -1,0 +1,14 @@
+apply plugin: 'java'
+
+repositories {
+    // this package is not requested to be included in jcenter, since it's just a dummy project
+    // jcenter()
+    // but I'm OK that we can use following url to get it
+    maven {
+        url 'https://dl.bintray.com/freewind/maven/'
+    }
+}
+
+dependencies {
+    compile "freewind.demos:gradle-publish-to-jcenter-demo:0.3.0"
+}
