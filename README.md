@@ -8,10 +8,17 @@ There are two built-in repositories in gradle:
 
 Since `jcenter` is much faster and developer friendly than `mavenCentral`, we can just publish our libs to jcenter by default.
 
-Create a new Repository on JCenter for this project
----------------------------------------------------
+Create a new Repository on bintray to hold such projects
+--------------------------------------------------------
 
-View this page: <https://bintray.com/freewind>, and click on "Add New Repository", and fill some information.
+We can create many repositories on bintray. A repository is like a category to hold many projects(not the same as `repository` in github, but like `organization` in github).
+
+If we have never created one, we can create it now:
+
+1. view this page: <https://bintray.com/freewind>
+2. click on "Add New Repository"
+3. Choose a name, remember it's not just for this ONE project, so make it generic, like `maven`, or `demos`
+4. Fill other information
 
 Configure
 ---------
