@@ -23,7 +23,9 @@ If we have never created one, we can create it now:
 Configure
 ---------
 
-Update bintray information in `local.properties`, and make sure this file is ignored by git
+Update bintray information in `local.properties` of project root directory, and make sure this file is ignored by git.
+
+You may want to create it if it's not present.
 
 ```
 bintray.user=USERNAME
