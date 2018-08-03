@@ -10,5 +10,5 @@ repositories {
 }
 
 dependencies {
-    compile "freewind.demos:gradle-publish-to-jcenter-demo:0.3.0"
+    compile "freewind.demos:gradle-publish-to-jcenter-demo:0.3.1"
 }

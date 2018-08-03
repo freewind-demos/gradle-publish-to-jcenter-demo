@@ -31,7 +31,7 @@ ext {
     publishedGroupId = 'freewind.demos'
     // `artifact` also use as and `bintray.pkg.name` for simplifying
     artifact = 'gradle-publish-to-jcenter-demo'
-    libraryVersion = '0.3.0'
+    libraryVersion = '0.3.1'
     // `libraryName` also uses as `bintray.pkg.libraryName` and `bintray.pkg.version.libraryName`
     libraryName = 'Gradle Publish To JCenter Demo'
 
